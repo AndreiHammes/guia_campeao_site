@@ -1,12 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    /* background-color: rgb(64, 63, 63); */
-    background-color: black;
+    background-color: #000000;
     text-align: center;
 }
 
 .content-center{
     margin: auto;
-    margin-top: 250px;
+    margin-top: 170px;
 }
 
 .content-center img{
@@ -16,6 +20,7 @@ body{
 
 #logo{
     padding-left: 50px ;
+    text-align: center;
 }
 
 
@@ -29,45 +34,51 @@ body{
  .content-center button{
     width: 10%;
     padding: 10px 5px;
-    background-color: rgb(175, 175, 175);
+    background-color: #D4BE74;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-
     }
 
     label{
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(175, 175, 175);
-        
+        /* display: block; */
     }
 
    #link{
-    text-decoration: none;
-    color: inherit;
     font-weight: 500;
-    font-size: 15px
+    font-size: 17px;
+    width: 10%;
+    padding: 10px 5px;
+    background-color: #AFAFAF;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: solid 1.5px white;
+    
 }
 
 #submit{
-    padding: 12px 32px;
-    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
     font-size: 17px;
-    line-height: 24px;
-    color: #ffffff;
-    opacity: 0.6;
-    text-decoration: none;
-    color: #040101;
-    background-color: #cfb144;
+    font-weight: 600;
 }
-/* 
-#submit:hover{
-    padding: 12px 32px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #ffffff;
-    opacity: 0.6;
-    text-decoration: none;
-    color: #040101;
-    background-color: #cfb144;
-    text-decoration: none;
-} */
+
+.btn-cadastro{
+    font-size: 15px;
+    border: solid 1px #AFAFAF;
+}
+
+#email{
+    border: solid 1px white;    
+}
+
+#senha{
+    border: solid 1px white;
+}
+
+#nome{
+    border: solid 1px white;
+}
